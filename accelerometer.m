@@ -53,14 +53,8 @@ gd = rotor_combs( ...
     0.1,...
     true);
 
-%now let's just try generating the springs
-first_spring.p1 = 1000*[0,0];
-first_spring.p2 = 1000*[-1,-1];
-first_spring.n = 4;
-first_spring.w = 100;
-first_spring.dpp = 0.1;
-first_spring.layer = 0;
-out = s_spring(first_spring);
+%now let's try generating the cage....
+
 
 
 %create our library to hold the accelerometer structures
